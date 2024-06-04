@@ -3,6 +3,13 @@
 ## Description
 Ce projet est une application de chat en temps réel utilisant une architecture réseau peer-to-peer activée par WebRTC pour une communication directe entre les clients. Le serveur de signalisation, construit avec Node.js et WebSocket, facilite la configuration initiale de la connexion entre les clients. L'application garantit qu'une fois qu'une connexion peer-to-peer est établie, toutes les données (en particulier les messages de chat et les fichiers) sont échangées directement entre les clients, réduisant ainsi la latence et la charge du serveur.
 
+## Fonctionnalités
+
+- **Chat en Temps Réel**:Utilise WebSocket pour la messagerie en temps réel
+- **Partage de Fichiers**: Permet aux utilisateurs de partager des fichiers directement via le chat.
+- **Liste des Utilisateurs en Ligne**:Affiche les utilisateurs disponibles et permet de se connecter avec eux.
+- **Interface Utilisateur Personnalisée**:Améliorée avec Semantic UI React et des styles CSS personnalisés.
+
 ## Architecture
 
 ### Front-end
@@ -14,6 +21,18 @@ Ce projet est une application de chat en temps réel utilisant une architecture 
   - `Chat.js`: Fonctionnalité de chat principale, gère la connexion WebSocket et les connexions entre pairs WebRTC.
   - `MessageBox.js`: Affiche les messages de chat et le champ de saisie.
   - `UsersList.js`: Affiche une liste des utilisateurs en ligne et permet de se connecter à eux.
+### Ajouts HTML, CSS et JavaScript
+En plus des composants React, nous avons ajouté des fichiers HTML, CSS et JavaScript pour améliorer et exploiter ce que nous avons appris.
+-**Fichiers html**: 
+  - 'Home.html': Page d'accueil pour la création de rooms.
+  - 'Join-Room.html': Page pour rejoindre une room existante.
+  - 'Create-Room.html': Page pour la création d'une nouvelle room.
+  - 'Erreur.html': Page affichée en cas d'erreur.
+-**Fichiers css**: 
+  - 'Home.css': Styles pour la page d'accueil.
+  - 'Create-Join-Room.css': Styles pour la page de création de room.
+  - 'Erreur.css': Styles pour la page d'erreur.
+-**script.js**: Contient des fonctions supplémentaires pour les interactions utilisateur, telles que le changement de langue et le mode sombre/clair. Ce fichier est lié aux fichiers HTML et CSS mentionnés ci-dessus.
 
 ### Back-end
 - **Langage**: JavaScript

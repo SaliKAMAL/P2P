@@ -41,7 +41,7 @@ En plus des composants React, nous avons ajouté des fichiers HTML, CSS et JavaS
 - **Langage**: JavaScript
 - **Framework**: Node.js
 - **Bibliothèque WebSocket**: ws
-- **Fichiers Clés**:
+- **Fichier Clé**:
   - `signaling-server.js`: met en place un serveur WebSocket pour gérer la signalisation des connexions peer-to-peer entre utilisateurs en ligne.
 - **Responsabilités Clées**:
   - Maintenir une liste des clients connectés.

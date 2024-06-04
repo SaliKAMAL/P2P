@@ -25,14 +25,14 @@ Ce projet est une application de chat en temps réel utilisant une architecture 
 En plus des composants React, nous avons ajouté des fichiers HTML, CSS et JavaScript pour améliorer et exploiter ce que nous avons appris.
 
 -**Fichiers html**: 
-  - `Home.html`: Page d'accueil pour la création de rooms.
+  - `Home.html`: Page d'accueil pour l'application.
   - `Join-Room.html`: Page pour rejoindre une room existante.
   - `Create-Room.html`: Page pour la création d'une nouvelle room.
   - `Erreur.html`: Page affichée en cas d'erreur.
     
 -**Fichiers css**: 
   - `Home.css`: Styles pour la page d'accueil.
-  - `Create-Join-Room.css`: Styles pour la page de création de room.
+  - `Create-Join-Room.css`: Styles pour la page de création et la page pour rejoindre les rooms.
   - `Erreur.css`: Styles pour la page d'erreur.
     
 -**`script.js`**: Contient des fonctions supplémentaires pour les interactions utilisateur, telles que le changement de langue et le mode sombre/clair. Ce fichier est lié aux fichiers HTML et CSS mentionnés ci-dessus.
